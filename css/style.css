@@ -1,0 +1,14 @@
+.backpic {
+    position: relative;
+    padding: 0;
+}
+
+.frontpic {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    padding: 0;
+    transform: translate(-50%,-50%);
+    width: 83%;
+    height: 77%;
+}
