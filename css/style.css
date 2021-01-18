@@ -2,10 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 h2 {
+.catamaran {
  font-family: Catamaran;
- src: url(/css/Catamaran/Catamaran-VariableFont_wght.ttf);
+ src: url(./css/Catamaran/static/Catamaran-Thin.ttf);
 }
+
 .backpic {
     position: relative;
     width: 100%;
@@ -24,11 +25,12 @@ h1 h2 {
 
 .bgmine {
     background-repeat: repeat;
-    background-image: linear-gradient(to right, #da2431, #7a4397), url("/img/bg-pattern.png");
+    background-image: url("/img/bg-pattern.png"), linear-gradient(to right, #da2431, #7a4397);
 }
 
 .discover {
     background-color: #fdca4b;
+    text-align: center;
 }
 
 footer {
