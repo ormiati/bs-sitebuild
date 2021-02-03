@@ -61,25 +61,39 @@ footer {
 }
 
 .twr {
-    color: #1da1f3;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color:#1da1f3;
     opacity: 90%;
 }
 
 .twr:hover {
-    color: #1da1f3;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color:#1da1f3;
     opacity: 100%;
 }
 
 .fb {
     color: #ffffff;
     background-color: #3b5999;
+    margin: 1rem;
     opacity: 90%;
 }
 
 .fb:hover {
     color: #ffffff;
     background-color: #3b5999;
+    opacity: 100%;
+}
+
+.ggl {
+    color: #ffffff;
+    background-color: #dd4c39;
+    background-size: 1rem;
+    opacity: 90%;
+}
+
+.ggl:hover {
+    color: #ffffff;
+    background-color: #dd4c39;
     opacity: 100%;
 }
