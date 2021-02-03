@@ -1,10 +1,16 @@
+@font-face{
+    font-family: Catamaran;
+    src: url(./css/Catamaran/static/Catamaran-Thin.ttf);
+    font-family: Mulish;
+    src: url(.css/Mulish/static/Mulish-Light.ttf);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .catamaran {
- font-family: Catamaran;
- src: url(./css/Catamaran/static/Catamaran-Thin.ttf);
+   font-family: 'Catamaran';
 }
 
 .backpic {
@@ -36,7 +42,8 @@ body {
 
 footer {
     background-color: #222222;
-    color:#ffffff;
+    font-family: 'Mulish';
+    font-size: x-small;
 }
 
 .bigpic {
