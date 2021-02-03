@@ -30,11 +30,13 @@ body {
 
 .discover {
     background-color: #fdca4b;
+    margin: #fdca4b;
     text-align: center;
 }
 
 footer {
     background-color: #222222;
+    color:#ffffff;
 }
 
 .bigpic {
@@ -48,4 +50,36 @@ footer {
     border: #fdcc52;
     transition-duration: 300ms;
     color: #ffffff;
+}
+
+.sziv {
+    color: #dd4c39;
+}
+
+.lila {
+    color: #a43667;
+}
+
+.twr {
+    color: #1da1f3;
+    background-color: #ffffff;
+    opacity: 90%;
+}
+
+.twr:hover {
+    color: #1da1f3;
+    background-color: #ffffff;
+    opacity: 100%;
+}
+
+.fb {
+    color: #ffffff;
+    background-color: #3b5999;
+    opacity: 90%;
+}
+
+.fb:hover {
+    color: #ffffff;
+    background-color: #3b5999;
+    opacity: 100%;
 }
